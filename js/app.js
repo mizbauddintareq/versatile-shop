@@ -13,7 +13,7 @@ const loadProducts = () => {
     //   div.classList.add("product");
       div.innerHTML =`
       <div class="card h-100 shadow p-3 bg-body rounded">
-          <img height="350px" src="${product.image}" class="card-img-top" alt="...">
+          <img height="275px" src="${product.image}" class="card-img-top" alt="...">
           <div class="card-body">
               <h5 class="card-title">${product.title}</h5>
               <h6 class="card-text"><span class="fw-bold">Category:</span> ${product.category}</h6>
