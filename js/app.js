@@ -20,8 +20,8 @@ const loadProducts = () => {
               <h5>Price: $ ${product.price}</h5>
               <h6><span>&#9733;&#9733;&#9733;</span>${product.rating.rate}</h6>
               <h6>${product.rating.count} peoples like this product</h6>
-            <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-dark">Add To Cart</button>
-            <button id="details-btn" class="btn btn-secondary">Details</button>
+            <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-warning">Add To Cart</button>
+            <button id="details-btn" class="btn btn-danger">Details</button>
           </div>
          </div>
       `;
