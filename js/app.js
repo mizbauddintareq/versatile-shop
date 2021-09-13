@@ -28,6 +28,7 @@ const loadProducts = () => {
       document.getElementById("all-products").appendChild(div);
     }
   };
+  // numbers of added products
   let count = 0;
   const addToCart = (id, price) => {
     count = count + 1;
@@ -36,7 +37,7 @@ const loadProducts = () => {
     updateTaxAndCharge();
     document.getElementById("total-Products").innerText = count;
   };
-  
+  // update total
   const getInputValue = (id) => {
     const element = document.getElementById(id).innerText;
     const converted = parseFloat(element);
